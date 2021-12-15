@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="tetris game">
+    <title>HoliDayTris</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <script src="https://cdn.jsdelivr.net/npm/fireworks-js@latest/dist/fireworks.js"></script>
+</head>
+
+<body>
+    <div class="moving-clouds" style="background-image: url('assets/images/clouds.png'); "></div>
+    <div id="fireworks"></div>
+    <div id="game-container">
+        <div class="left-panel">
+            <div id="next-piece">
+            </div>
+            <div class="buttons">
+                <button class="btn-game" id="start">Start</button>
+                <button class="btn-game" id="pause">Pause</button>
+                <button class="btn-game" id="reset">Reset</button>
+            </div>
+        </div>
+        <div id="grid">
+        </div>
+        <div id="score-container">
+            <div>Score: <span id="score">0</span></div>
+            <div>Speed: <span id="speed">0</span></div>
+        </div>
+    </div>
+
+    <div id="backg">
+        <div class="snowflakes" aria-hidden="true">
+            <div class="snowflake">
+                ❅
+            </div>
+            <div class="snowflake">
+                ❅
+            </div>
+            <div class="snowflake">
+                ❆
+            </div>
+            <div class="snowflake">
+                ❄
+            </div>
+            <div class="snowflake">
+                ❅
+            </div>
+            <div class="snowflake">
+                ❆
+            </div>
+            <div class="snowflake">
+                ❄
+            </div>
+            <div class="snowflake">
+                ❅
+            </div>
+            <div class="snowflake">
+                ❆
+            </div>
+            <div class="snowflake">
+                ❄
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="developers">
+
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
